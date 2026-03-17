@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해성장식 - 이천 1989년부터 이어온 인테리어 전문</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        body { font-family: 'Noto Sans KR', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .smooth-scroll { scroll-behavior: smooth; }
+        .logo-font { font-family: 'serif'; letter-spacing: -0.05em; }
+    </style>
+</head>
+<body class="bg-gray-50 smooth-scroll">
+
+    <!-- 네비게이션 -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex flex-col">
+                <div class="text-2xl font-bold text-blue-900 logo-font leading-none">
+                    해성장식
+                </div>
+                <span class="text-[10px] text-blue-600 font-bold tracking-widest mt-1 uppercase">Since 1989</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-gray-700">
+                <a href="#home" class="hover:text-blue-600 transition">홈</a>
+                <a href="#services" class="hover:text-blue-600 transition">시공항목</a>
+                <a href="#about" class="hover:text-blue-600 transition">장인정신</a>
+                <a href="#contact" class="hover:text-blue-600 transition">견적문의</a>
+            </div>
+            <a href="tel:010-5326-7887" class="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-blue-700 transition flex items-center shadow-md">
+                <i class="fa-solid fa-phone mr-2"></i> 010-5326-7887
+            </a>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <header id="home" class="hero-bg h-[85vh] flex items-center justify-center text-center text-white pt-20">
+        <div class="px-6 max-w-5xl">
+            <h2 class="text-lg md:text-xl mb-4 font-light tracking-[0.3em] text-blue-300 uppercase">Since 1989</h2>
+            <h1 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">한 자리를 지켜온 신뢰<br>이천 해성장식</h1>
+            <p class="text-base md:text-xl mb-10 text-gray-200 font-light leading-relaxed">
+                도배 · 장판부터 씽크대 · 붙박이장 · 신발장까지<br class="hidden md:block">
+                38년 넘는 세월이 증명하는 베테랑의 기술력을 경험하세요.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="bg-white text-blue-900 px-10 py-4 rounded-full font-bold hover:bg-blue-50 transition shadow-xl">무료 방문견적 신청</a>
+                <a href="#services" class="border-2 border-white text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-gray-900 transition">시공 서비스 안내</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 서비스 섹션 -->
+    <section id="services" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h3 class="text-4xl font-bold text-gray-900 mb-6">종합 인테리어 시공</h3>
+                <p class="text-gray-500 max-w-2xl mx-auto">도배, 장판은 물론 가구 맞춤 제작과 욕실 수리까지 집안 전체의 품격을 높여드립니다.</p>
+                <div class="w-20 h-1.5 bg-blue-600 mx-auto mt-8 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- 시공 항목 1 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-scroll"></i></div>
+                    <h4 class="text-xl font-bold mb-3">도배 · 장판</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">실크/합지 도배부터 강마루, 데코타일, 층간소음 방지 장판까지 전문 시공</p>
+                </div>
+                <!-- 시공 항목 2 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-sink"></i></div>
+                    <h4 class="text-xl font-bold mb-3">씽크대 교체</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">공간 활용을 극대화한 맞춤형 씽크대 설계 및 고품질 자재 시공</p>
+                </div>
+                <!-- 시공 항목 3 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-door-closed"></i></div>
+                    <h4 class="text-xl font-bold mb-3">붙박이장 · 신발장</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">수납 고민을 해결하는 깔끔한 디자인의 붙박이장과 현관 신발장 맞춤 제작</p>
+                </div>
+                <!-- 시공 항목 4 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-shower"></i></div>
+                    <h4 class="text-xl font-bold mb-3">욕실 수리</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">타일 시공부터 도기 교체까지, 방수 걱정 없는 완벽한 욕실 리모델링</p>
+                </div>
+                <!-- 시공 항목 5 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-border-none"></i></div>
+                    <h4 class="text-xl font-bold mb-3">블라인드 · 커튼</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">공간의 분위기를 완성하는 세련된 커튼과 맞춤형 블라인드 설치</p>
+                </div>
+                <!-- 시공 항목 6 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-paint-roller"></i></div>
+                    <h4 class="text-xl font-bold mb-3">페인트 시공</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">베란다 탄성코트 및 내부 도색 작업으로 쾌적한 환경 조성</p>
+                </div>
+                <!-- 시공 항목 7 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-fill-drip"></i></div>
+                    <h4 class="text-xl font-bold mb-3">인테리어 필름</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">낡은 문틀, 가구, 샷시를 새것처럼 바꾸는 경제적인 필름 리폼</p>
+                </div>
+                <!-- 시공 항목 8 -->
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-blue-900 hover:text-white transition-all duration-300 group">
+                    <div class="text-3xl mb-6 text-blue-600 group-hover:text-white"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h4 class="text-xl font-bold mb-3">책임 AS 서비스</h4>
+                    <p class="text-sm opacity-80 group-hover:opacity-100">38년 넘게 지켜온 신용으로 시공 후 사후관리까지 확실하게 책임집니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 역사와 연혁 강조 -->
+    <section id="about" class="py-24 bg-blue-900 text-white overflow-hidden relative">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <div class="inline-block border border-blue-400 px-4 py-1 rounded-full text-blue-300 text-sm font-bold mb-6 italic">Since 1989, Icheon</div>
+                    <h3 class="text-3xl md:text-5xl font-bold mb-8 leading-tight">1989년부터 쌓아온<br>정직한 장인의 고집</h3>
+                    <p class="text-lg text-blue-100 mb-8 leading-relaxed">
+                        이천에서 38년 넘게 한 길만을 걸어왔습니다.<br>
+                        씽크대 하나, 도배 한 폭에도 저희 해성장식의 자부심을 담습니다.<br>
+                        오랜 고객님들이 다시 찾아주시는 데에는 그만한 이유가 있습니다.
+                    </p>
+                    <div class="flex gap-12">
+                        <div>
+                            <div class="text-4xl font-bold text-white mb-2">38年+</div>
+                            <p class="text-blue-300">누적 경력</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-5/12">
+                    <div class="relative">
+                        <!-- 장판/마루 자재 질감 이미지로 변경 -->
+                        <img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=800&q=80" alt="고급 나무 무늬 장판 자재" class="rounded-3xl shadow-2xl transition duration-500">
+                        <div class="absolute -top-6 -right-6 bg-white p-6 rounded-2xl shadow-xl text-blue-900 hidden lg:block">
+                            <span class="block text-xs font-bold text-blue-600 mb-1">FOUNDED IN</span>
+                            <p class="font-bold text-3xl italic">1989</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 opacity-10 text-[20rem] font-bold leading-none pointer-events-none select-none">1989</div>
+    </section>
+
+    <!-- 오시는 길 및 문의 -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl font-bold mb-8">찾아오시는 길</h3>
+                    <div class="bg-gray-100 rounded-3xl p-2 border mb-8 h-80 overflow-hidden relative">
+                        <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-gray-50">
+                            <i class="fa-solid fa-location-dot text-6xl text-blue-600 mb-4"></i>
+                            <h4 class="text-xl font-bold mb-2">이천시 중리천로 11</h4>
+                            <p class="text-gray-500">관고전통시장 인근 (관고동 12-5번지)</p>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div class="flex items-center p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-blue-500 transition cursor-pointer" onclick="location.href='tel:010-5326-7887'">
+                            <i class="fa-solid fa-mobile-screen-button text-2xl text-blue-600 mr-5"></i>
+                            <div>
+                                <p class="text-xs text-gray-400">대표 핸드폰 (상담 및 견적)</p>
+                                <p class="font-bold text-xl tracking-tighter">010-5326-7887</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2">
+                    <div class="bg-blue-50 rounded-3xl p-10 shadow-sm">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-900">맞춤 견적 상담</h3>
+                        <p class="text-sm text-blue-700 mb-6">아래 내용을 적어주시면 메일로 내용이 전달됩니다.</p>
+                        <form id="quoteForm" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <input type="text" id="userName" placeholder="성함" class="w-full px-5 py-4 rounded-xl border-none focus:ring-2 focus:ring-blue-600 outline-none shadow-sm" required>
+                                <input type="tel" id="userPhone" placeholder="연락처" class="w-full px-5 py-4 rounded-xl border-none focus:ring-2 focus:ring-blue-600 outline-none shadow-sm" required>
+                            </div>
+                            <select id="workType" class="w-full px-5 py-4 rounded-xl border-none focus:ring-2 focus:ring-blue-600 outline-none shadow-sm bg-white">
+                                <option>도배/장판 시공</option>
+                                <option>씽크대/붙박이장/신발장</option>
+                                <option>욕실수리/리모델링</option>
+                                <option>블라인드/커튼</option>
+                                <option>페인트/필름 리폼</option>
+                                <option>기타 인테리어</option>
+                            </select>
+                            <textarea id="userMessage" rows="5" placeholder="시공 장소 및 평수, 구체적인 문의 내용을 적어주세요." class="w-full px-5 py-4 rounded-xl border-none focus:ring-2 focus:ring-blue-600 outline-none shadow-sm"></textarea>
+                            <button type="submit" class="w-full bg-blue-900 text-white py-5 rounded-xl font-bold text-lg hover:bg-black transition shadow-lg flex items-center justify-center">
+                                <i class="fa-solid fa-envelope mr-2"></i> 이메일로 견적 요청하기
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex flex-col items-center mb-8">
+                <div class="text-2xl font-bold text-white logo-font">해성장식</div>
+                <span class="text-[10px] text-blue-500 font-bold tracking-[0.3em] uppercase">Since 1989</span>
+            </div>
+            <p class="mb-2">경기도 이천시 중리천로 11 (관고동)</p>
+            <p class="mb-8 font-bold text-gray-300">Mob. 010-5326-7887</p>
+            <div class="w-20 h-px bg-gray-700 mx-auto mb-8"></div>
+            <p class="text-xs">이천 지역의 주거 행복을 위해 1989년부터 한결같이 시공해왔습니다.</p>
+            <p class="text-xs mt-2 opacity-50">© 2024 Haeseong Interior. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('quoteForm').onsubmit = function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('userName').value;
+            const phone = document.getElementById('userPhone').value;
+            const type = document.getElementById('workType').value;
+            const message = document.getElementById('userMessage').value;
+            
+            const recipient = "haesung7887@naver.com"; 
+            const subject = `[해성장식 견적문의] ${name}님의 문의입니다.`;
+            const body = `성함: ${name}\n연락처: ${phone}\n시공종류: ${type}\n\n내용:\n${message}`;
+            
+            const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = mailtoLink;
+
+            const modal = document.createElement('div');
+            modal.innerHTML = `
+                <div class="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm">
+                    <div class="bg-white p-10 rounded-3xl text-center shadow-2xl max-w-sm mx-4">
+                        <div class="w-20 h-20 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold mb-3 text-gray-900">이메일 앱 연결 중</h4>
+                        <p class="text-gray-600 mb-8 leading-relaxed">메일 앱에서 '전송' 버튼을 누르시면 해성장식으로 즉시 전달됩니다.</p>
+                        <button onclick="this.closest('.fixed').remove()" class="w-full bg-blue-900 text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition">확인</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            this.reset();
+        }
+    </script>
+</body>
+</html>
